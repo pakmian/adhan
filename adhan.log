@@ -1,0 +1,358 @@
+FAJR : 06:07
+QURAN: 06:17
+Sunrise : 07:27
+Dhuhr : 12:11
+Asr : 15:15
+Maghrib : 16:55
+Isha : 18:15
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"65-Al Mumin.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+11 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+55 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2021-12-31 03:15:02.018839
+FAJR : 06:07
+QURAN: 06:17
+Sunrise : 07:27
+Dhuhr : 12:11
+Asr : 15:16
+Maghrib : 16:56
+Isha : 18:15
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"66-HaMeem.MP3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+11 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+56 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-01 03:15:02.246416
+FAJR : 06:07
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:12
+Asr : 15:16
+Maghrib : 16:57
+Isha : 18:16
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"67- Al Shoorah.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+12 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+57 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-02 03:15:02.495059
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:12
+Asr : 15:17
+Maghrib : 16:57
+Isha : 18:17
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"68-Al Zukhruf.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+12 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+57 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-03 03:15:01.937052
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:13
+Asr : 15:18
+Maghrib : 16:58
+Isha : 18:18
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"70-Al Ahqaaf.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+13 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+58 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-04 03:15:02.416469
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:13
+Asr : 15:19
+Maghrib : 16:59
+Isha : 18:19
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"71-Muhammad - Al Fatha.MP3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+13 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+19 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+59 16 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+19 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-05 03:15:02.380920
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:14
+Asr : 15:20
+Maghrib : 17:00
+Isha : 18:19
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"72-Al Fatha - Hujraat.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+14 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+20 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+0 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+19 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-06 03:15:02.185951
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:14
+Asr : 15:21
+Maghrib : 17:01
+Isha : 18:20
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"73-Qaaf - Azzariyyat.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+14 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+21 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+1 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+20 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-07 03:15:01.886342
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:14
+Asr : 15:22
+Maghrib : 17:02
+Isha : 18:21
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"78-Al Toor-Al Najam.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+14 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+22 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+2 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+21 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-08 03:15:02.232706
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:15
+Asr : 15:23
+Maghrib : 17:03
+Isha : 18:22
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"79-Al Qamar - Al Rahman.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+23 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+3 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+22 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-09 03:15:02.092964
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:15
+Asr : 15:24
+Maghrib : 17:04
+Isha : 18:23
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"80-Al Waqiya - Al Hadeed.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+24 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+4 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+23 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-10 03:15:01.734961
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:27
+Dhuhr : 12:16
+Asr : 15:25
+Maghrib : 17:05
+Isha : 18:24
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"81-Al Mujaadlah Al Hashar.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+27 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+25 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+5 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+24 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-11 03:15:02.611418
+FAJR : 06:08
+QURAN: 06:18
+Sunrise : 07:26
+Dhuhr : 12:16
+Asr : 15:26
+Maghrib : 17:06
+Isha : 18:25
+8 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"82-Al Mumtahina- Al Saff- Al Jummah- Al Munafiqoon.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+26 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+26 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+6 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+25 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-12 03:15:01.962274
+FAJR : 06:07
+QURAN: 06:18
+Sunrise : 07:26
+Dhuhr : 12:16
+Asr : 15:27
+Maghrib : 17:07
+Isha : 18:26
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 6 * * * omxplayer -o local  /home/pi/adhan/quran/"83-Al Al Taghabun - Al Talaq - Al Tahreem.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+26 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+27 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+7 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+26 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-13 03:15:01.947816
+FAJR : 06:07
+QURAN: 06:17
+Sunrise : 07:26
+Dhuhr : 12:17
+Asr : 15:28
+Maghrib : 17:08
+Isha : 18:27
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"84-Al Al Mulk - Al Qalam - Al Haqqah.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+26 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+28 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+8 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+27 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-14 03:15:01.914807
+FAJR : 06:07
+QURAN: 06:17
+Sunrise : 07:25
+Dhuhr : 12:17
+Asr : 15:29
+Maghrib : 17:09
+Isha : 18:28
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"85-Al Muari- Nooh - Al Jin- Al Muzamil.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+25 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+29 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+9 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+28 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-15 03:15:01.880975
+FAJR : 06:07
+QURAN: 06:17
+Sunrise : 07:25
+Dhuhr : 12:17
+Asr : 15:30
+Maghrib : 17:10
+Isha : 18:28
+7 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"86-Al Muddasir-Al Qiyamah - al Dahar-Al Mursalat.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+25 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+30 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+10 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+28 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-16 03:15:02.655571
+FAJR : 06:06
+QURAN: 06:17
+Sunrise : 07:25
+Dhuhr : 12:18
+Asr : 15:31
+Maghrib : 17:11
+Isha : 18:29
+6 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 6 * * * omxplayer -o local  /home/pi/adhan/quran/"88-Al Ifitaar-Mutafafin-Inshiqaq-Burj-Tariq-Aala- Ghashiyah-Fajer.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+25 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+31 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+11 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+29 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-17 03:15:02.475420
+FAJR : 06:06
+QURAN: 06:16
+Sunrise : 07:24
+Dhuhr : 12:18
+Asr : 15:32
+Maghrib : 17:12
+Isha : 18:30
+6 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+16 6 * * * omxplayer -o local  /home/pi/adhan/quran/"89-Al Balad till Naas.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+24 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+18 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+32 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+12 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+30 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-18 03:15:01.900369
+Traceback (most recent call last):
+  File "/home/pi/adhan/updateAzaanTimers.py", line 19, in <module>
+    QPath = QuranPath.nextFilePath() # using database connection
+  File "/home/pi/adhan/QuranPath.py", line 26, in nextFilePath
+    QID = (rows[0][0])
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/pi/adhan/updateAzaanTimers.py", line 19, in <module>
+    QPath = QuranPath.nextFilePath() # using database connection
+  File "/home/pi/adhan/QuranPath.py", line 26, in nextFilePath
+    QID = (rows[0][0])
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/pi/adhan/updateAzaanTimers.py", line 19, in <module>
+    QPath = QuranPath.nextFilePath() # using database connection
+  File "/home/pi/adhan/QuranPath.py", line 26, in nextFilePath
+    QID = (rows[0][0])
+IndexError: list index out of range
+FAJR : 06:05
+QURAN: 06:15
+Sunrise : 07:22
+Dhuhr : 12:19
+Asr : 15:37
+Maghrib : 17:17
+Isha : 18:34
+5 6 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fajer.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 6 * * * omxplayer -o local  /home/pi/adhan/quran/"01-Al Baqara.mp3" > /dev/null 2>&1 # rpiAdhanClockJob
+22 7 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/fatiha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+19 12 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/zohar.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+37 15 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/asser.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+17 17 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/magrib.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+34 18 * * * omxplayer -o local  /home/pi/adhan/azaanfiles/isha.mp3 > /dev/null 2>&1 # rpiAdhanClockJob
+15 3 * * * python /home/pi/adhan/updateAzaanTimers.py >> /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+0 0 31 12 * truncate -s 0 /home/pi/adhan/adhan.log 2>&1 # rpiAdhanClockJob
+Script execution finished at: 2022-01-22 03:15:02.285025
